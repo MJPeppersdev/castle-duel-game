@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Castle Duel</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative:600" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/transitions.css" />
+</head>
+
+<a id="github-link" href="https://github.com/McGdevfunk824" target="_blank"></a>
+
+<body>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/tween.js"></script>
+
+    <!-- Game App -->
+    <div id="app"></div>
+
+    <!-- Templates -->
+    <script type="text/x-template" id="banner">
+        <svg viewBox="0 0 20 260">
+              <path :d="`m 0,0 20,0 0,${height} -10,-10 -10,10 z`" :style="`fill:${color};stroke:none;`" />
+          </svg>
+    </script>
+
+    <!-- Scripts -->
+    <script src="utils.js"></script>
+    <script src="cards.js"></script>
+    <script src="state.js"></script>
+    <script src="components/ui.js"></script>
+    <script src="components/world.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
